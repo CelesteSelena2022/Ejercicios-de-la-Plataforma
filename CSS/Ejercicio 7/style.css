@@ -1,0 +1,55 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 300%;
+}
+h2{
+    font-size: 150%;
+    font-family: 'Cormorant Garamond', serif;
+}
+#fondo-articulo1-Paleta1{
+    background-color:#D8E2DC;
+}
+#fondo-articulo2-Paleta1{
+    background-color:#FFE5D9;
+}
+#fondo-articulo3-Paleta1{
+    background-color: #FFCAD4;
+}
+#fondo-articulo4-Paleta1{
+    background-color: #F4ACB7;
+}
+#fondo-articulo5-Paleta1{
+    background-color: #9D8189;
+}
+#fondo-articulo1-Paleta2{
+    background-color: rgb(247, 178, 103);
+}
+#fondo-articulo2-Paleta2{
+    background-color: rgb(247, 157, 101);
+}
+#fondo-articulo3-Paleta2{
+    background-color: rgb(244, 132, 95);
+}
+#fondo-articulo4-Paleta2{
+    background-color: rgb(242, 112, 89);
+}
+#fondo-articulo5-Paleta2{
+    background-color: rgb(242, 92, 84);
+}
+#fondo-articulo1-Paleta3{
+    background-color: hsl(32, 94%, 72%);
+}
+#fondo-articulo2-Paleta3{
+    background-color: hsl(22,85%,43%)
+}
+#fondo-articulo3-Paleta3{
+    background-color: hsl(25, 100%, 37%);
+}
+#fondo-articulo4-Paleta3{
+    background-color: hsl(11, 85%, 30%);
+}
+#fondo-articulo5-Paleta3{
+    background-color: hsl(15, 89%, 22%);
+}

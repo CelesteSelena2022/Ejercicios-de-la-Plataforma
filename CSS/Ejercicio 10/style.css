@@ -1,0 +1,24 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 200%;
+}
+h2{
+    font-size: 150%;
+}
+h3{
+    font-size: 100%;
+}
+.fondo-TareaPendiente{
+    background-color: blue;
+}
+.fondo-TareaHaciendo{
+    background-color: orange;
+}
+.fondo-TareaHecha{
+    background-color: green;
+}
+.fondo-TareaCancelada{
+    background-color: red;
+}

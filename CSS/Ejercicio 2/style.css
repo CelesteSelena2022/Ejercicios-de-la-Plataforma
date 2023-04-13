@@ -1,0 +1,26 @@
+body{
+    background-color: #212121;
+    color: #FAFAFA;
+}
+h1 {
+    font-size: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+p {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+#color-nombre {
+    color: blueviolet;
+}
+#color-progrmadora{
+    color: brown;
+}
+#color-matemática{
+    color: blue;
+}
+#color-guitarrista{
+    color: aquamarine;
+}

@@ -1,0 +1,35 @@
+#temperatura-extrema0{
+    font-weight: 900;
+    background-color: blue;
+}
+#temperatura-extrema50{
+    font-weight: 900;
+    background-color: red;
+}
+#color-temperatura5{
+    background-color: #3100f6;
+}
+#color-temperatura10{
+    background-color:#3a00ec ;
+}
+#color-temperatura15{
+    background-color:#4200e2 ;
+}
+#color-temperatura20{
+    background-color: #5c00c3;
+}
+#color-temperatura25{
+    background-color: #7600a4;
+}
+#color-temperatura30{
+    background-color:#920082;
+}
+#color-temperatura35{
+    background-color: #ac0063;
+}
+#color-temperatura40{
+    background-color: #cd003c;
+}
+#color-temperatura45{
+    background-color: #e5001f;
+}

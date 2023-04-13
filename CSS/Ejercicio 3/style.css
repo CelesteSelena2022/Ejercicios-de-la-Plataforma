@@ -1,0 +1,31 @@
+h1{
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#color-parrafoAda{
+    color: gray;
+}
+#enlace-Ada {
+    color: skyblue;
+    text-decoration:none;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.oracion-itálica{
+    font-style: italic;
+}
+.oracion-negrita{
+    font: weight 600px;
+}
+.italica-tipografia{
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+}
+.palabra-negrita{
+    font: weight 600px;
+}
+.palabra-italica{
+    font-style: italic;
+}

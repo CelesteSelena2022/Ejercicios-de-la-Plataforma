@@ -1,0 +1,9 @@
+.alineacionDeP-Izquierda{
+    text-align:start
+}
+.alineacionDeP-Centro{
+    text-align: center;
+}
+.alineacionDeP-Derecha{
+    text-align: end;
+}

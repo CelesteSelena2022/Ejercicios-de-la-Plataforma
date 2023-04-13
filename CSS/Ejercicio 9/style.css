@@ -1,0 +1,16 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.tamaño-h3{
+    font-size: 130%;
+}
+.fecha{
+    font-size: 100%;
+    color: grey;
+}
+.color-monto-positivo{
+    color: green;
+}
+.color-monto-negativo{
+    color: red;
+}
