@@ -1,0 +1,48 @@
+body{
+    background-color: #f2f2f2;
+    font-family: "Muli", sans-serif;
+}
+.custom-tarjet{
+    background-color: #ffffff;
+    width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.custom-titulo{
+    color: #343434;
+    font-size: 40px;
+    font-weight: 900;
+}
+.custom-filtro{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.evento-tiempo{
+    color: #8c8c8c;
+    font-size: 14px;
+}
+.filtro-seleccionado{
+    background-color: #343434;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.custom-eventos{
+    border-bottom: 1px solid #f2f2f2;
+    padding: 40px 30px;
+}
+.evento-estado{
+    color: #ec6189;
+    margin-right: 10px;
+    padding: 0px;
+    display:inline;
+}
+.evento-fecha {
+    color: #a3a3a3;
+    display:inline;
+}
+
+.evento-descripcion{
+    color:#9a9a9a;
+}

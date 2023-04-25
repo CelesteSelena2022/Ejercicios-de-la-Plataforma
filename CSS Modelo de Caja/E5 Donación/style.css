@@ -1,0 +1,55 @@
+body{
+    font-family: 'Chivo Mono', monoespaciado; 
+    font-weight: 500;
+    background-color: #eae7fb;
+    font-size: 12px;
+}
+.grosor-mayor{
+    font-weight: 700;
+}
+.custom-tarjet{
+    background-color: #ffffff;
+    width: 240px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 40px 30px 50px 30px;
+    border-radius: 12px;
+    margin:auto;
+    margin-top: 130px;
+}
+
+ul{
+    padding:0px;
+    margin-bottom: 20px;
+    color:#807d9f
+}
+li{
+    list-style: none;
+    display: inline;
+    border:1px solid #f5f3fd;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 3px;
+}
+.fondo-azul{
+    background-color: #7563f6;
+    color:white;
+}
+.custom-button {
+    padding: 9px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    width: 200px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.custom-parrafo{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 32px;
+    padding-left: 32px;
+    color: #2a2a2a;
+    text-align: start;
+    box-sizing: content-box;
+}

@@ -1,0 +1,32 @@
+.custom-barra{
+    width: 500px;
+    height: 30px;
+    background-color: #eaeaea;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 20px;
+}
+.barra-10{
+    width: 10%;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 100px;
+}
+.barra-25{
+    width: 25%;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 100px;
+}
+.barra-50{
+    width: 50%;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 100px;
+}
+.barra-75{
+    width: 75%;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 100px;
+}
