@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+}
+div{
+    flex-grow: 6;
+}
+aside{
+    flex-grow: 2;
+    background-color: #ff99ff;
+}
+.contenido-web{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    flex-grow: 2;
+    background-color: #ffc9ff;
+}
+main{
+    flex-grow: 6;
+}
+footer{
+    flex-grow: 1;
+    background-color: #cb87f6;
+}
+.alinear-contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

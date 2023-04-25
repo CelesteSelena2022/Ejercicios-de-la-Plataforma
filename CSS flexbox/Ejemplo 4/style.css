@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+.container-header{
+    display: flex;
+    background-color: #ffc9ff;
+    justify-content: center;
+    padding: 40px 0px;
+}
+.container-main-aside{
+    display: flex;
+    height: 700px;
+}
+aside{
+    flex-grow: 2;
+    background-color: #ff99ff;
+}
+main{
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer{
+    background-color: #cb87f6;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
