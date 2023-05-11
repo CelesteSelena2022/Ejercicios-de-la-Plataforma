@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+    background-color: #f5f8ff;
+    font-family: "Muli", sans-serif;
+    min-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.target{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.title-target{
+    color:#393a5d;
+}
+.fa-star{
+    color:#FCCC4D;
+}
+.container-stars{
+    background-color: #f5f8ff;
+    padding: 13px;
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.estadisticas-stars{
+    margin: 0%;
+    font-size: 14px;
+    color:#4a4b6c;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    margin-right: 5px;
+}
+.cant-valoraciones{
+    color: #858696;
+    margin: 0%;
+    font-size: 14px;
+    margin: 3px;
+    margin-bottom: 30px;
+}
+.barra-estadistica{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.barra{
+    width: 180px;
+    height: 15px;
+    background-color:#f5f8ff;
+    border-radius: 100px;
+    margin-right: 5px;
+    padding: 3px;
+}
+.custom-barra{
+    height: 100%;
+    background-color: #ffcc48;
+    border-radius: 100px;
+    box-shadow: #ffcc48 0px 3px 8px;
+}
+.barra-84{
+    width: 84%;
+}
+.barra-9{
+    width: 30%;
+}
+.barra-3{
+    width: 15%;
+}
+.barra-2{
+    width: 10%;
+}
+.barra-1{
+    width: 5%;
+}
+p{
+    margin: 0%;
+    color: #5a80e2;
+    margin-right: 5px;
+}
+span{
+    color: #6b6c86;
+}
+.calculate-ratings{
+    color:#4d76df;
+    font-size: 14px;
+    margin: 0%;
+    margin-top: 25px;
+}

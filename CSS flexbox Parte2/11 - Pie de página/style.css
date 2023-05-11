@@ -1,0 +1,76 @@
+body{
+    font-family: "Muli", sans-serif;
+    margin: 0%;
+    background-color: #F3FAFB;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    margin: 0%;
+    height: 3px;
+    background-color: #394151;
+}
+.target{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #ffffff;
+}
+.pie-de-pag{
+    display: flex;
+    padding: 15px;
+}
+.style-list{
+    list-style: none;
+    padding: 15px 23px;
+    margin: 0%;
+    min-width: 20vh
+}
+.icono{
+    padding: 15px;
+    min-width: 40vh;
+}
+
+.title-icono{
+    color: #151d34;
+    font-weight: bold;
+}
+.title-list{
+    color: #29334c;
+    font-weight:bold;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+li{
+    color: #7C7C90;
+    margin: 10px;
+    font-size: 13px;
+}
+.list-footer{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+footer{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+}
+.derechos-autor{
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+
+}
+.termino-servicios{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+.icono-redes{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+}
