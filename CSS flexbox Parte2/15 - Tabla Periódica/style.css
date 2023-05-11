@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    min-width: 100vh;
+    font-family: sans-serif;
+}
+.container-tabla{
+    display: flex;
+    justify-content: center;
+}
+.posicion-fila{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: end;
+}
+p{
+    margin: 0%;
+    font-size: 10px;
+}
+h2{
+    margin: 0%;
+}
+.elemento-quimico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 54px;
+    height: 50px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.no-metales{
+    background-color: #f58022;
+}
+.metales-alcalinos{
+    background-color: #002c4e;
+    color: white;
+}
+.alcalinotérreos{
+    background-color: #ffb913;
+}
+.metales-de-transición{
+    background-color: #0088ce;
+    color: white;
+}
+.otros-metales{
+    background-color: #771f76;
+    color: white;
+}
+.metaloides{
+    background-color: #ea1944;
+    color: white;
+}
+.halógenos{
+    background-color: #a2b52a;
+}
+.gases-nobles{
+    background-color: #016a35;
+    color:white;
+}
+.posicion-container{
+    display: flex;
+}
+
+.lantánidos{
+    margin-top: 15px;
+    background-color: #cad48f;
+} 
+.actínidos{
+    background-color: #69a382;
+}
+
