@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.primero-ultimo{
+    width: 250px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.espacio-restante{
+    flex-grow: 1;
+    background-color: blue;
+    height: 200px;
+}

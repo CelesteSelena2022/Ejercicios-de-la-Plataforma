@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.veinte-porciento1{
+    flex-grow: 2;
+    background-color: blue;
+}
+.veinte-porciento2{
+    flex-grow: 2;
+    background-color: rgb(255, 0, 187);
+}
+.sesenta-porciento{
+    flex-grow: 6;
+    background-color: blueviolet;
+}
+.cuadro{
+    width: 200px;
+    height: 200px;
+}

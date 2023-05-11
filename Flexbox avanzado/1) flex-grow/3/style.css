@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1{
+    flex-grow: 1;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+.div2{
+    flex-grow: 1;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+.div3{
+    flex-grow: 1;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+}

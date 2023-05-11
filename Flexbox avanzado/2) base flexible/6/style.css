@@ -1,0 +1,19 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuadro{
+    height: 200px;
+    margin: 10px;
+}
+.flex-basis{
+    flex-basis: 25%;
+    background-color: blueviolet;
+}
+.flex-grow{
+    flex-basis: 25%;
+    flex-grow: 1;
+    background-color: blue;
+}

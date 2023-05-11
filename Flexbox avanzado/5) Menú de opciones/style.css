@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-general{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 370px;
+    background-color: #dddddd;
+    padding: 5px;
+    color: #7e7e7e;
+}
+.encabezado{
+    height: 60px;
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid #676767;
+    padding: 7px;
+
+}
+.pie-de-pag{
+    height: 50px;
+    background-color: white;
+    border: 1px solid #676767;
+}
+.foto{
+    width: 60px;
+    border: 1px solid #676767;
+    margin-right: 7px;
+}
+.icono{
+    width: 60px;
+    border: 1px solid #676767;
+    margin: 1px;
+}
+.nombre{
+    flex-grow: 1;
+    border: 1px solid #676767;
+    margin: 1px;
+    margin-right: 7px;
+}
+.menu{
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+    margin: 7px 0px;
+    border: 1px solid #676767;
+}
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    border: 1px solid #676767;
+    margin: 10px;
+    height: 49px;
+    padding-left: 5px;
+}
+.alinear-elementos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alinear{
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 170px;
+    height: 35px;
+    background-color: #ee6d52;
+    border: 1px solid #676767;
+    color: white;
+}
