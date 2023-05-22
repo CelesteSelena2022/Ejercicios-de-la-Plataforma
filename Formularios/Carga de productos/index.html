@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de productos</title>
+</head>
+<body>
+    <form id="form-productos">
+        <label for="input-producto">
+            Producto
+        </label>
+        <input type="text" placeholder="Ingrese su producto" required id="input-producto">
+        <label for="select-marca">
+            Marca
+        </label>
+        <select id="select-marca">
+            <option value="klatter">
+                Klatter
+            </option>
+            <option value="top-mega">
+                Top Mega
+            </option>
+            <option value="fierce">
+                Fierce
+            </option>
+            <option value="shimano">
+                Shimano
+            </option>
+            <option value="lamborghini">
+                Lamborghini
+            </option>
+            <option value="aurora">
+                Aurora
+            </option>
+            <option value="gt">
+                GT
+            </option>
+        </select>
+        <label for="input-rodado">
+            Rodado
+        </label>
+        <input type="number" min="0" max="1000" id="input-rodado">
+        <p>
+            Categoría
+        </p>
+        <div>
+            <input type="radio" id="input-categoria-mb" value="m-bike" name="input-categoria">
+            <label for="input-categoria-mb">
+                Mountain Bike
+            </label>
+        </div>
+        <div>
+            <input type="radio" id="input-categoria-paseo" value="paseo" name="input-categoria">
+            <label for="input-categoria-paseo">
+                Paseo
+            </label>
+        </div>
+        <div>
+            <input type="radio" id="input-categoria-plegable" value="plegable" name="input-categoria">
+            <label for="input-categoria-plegable">
+                Plegable
+            </label>
+        </div>
+        <div>
+            <input type="radio" id="input-categoria-carrera" value="carrera" name="input-categoria">
+            <label for="input-categoria-carrera">
+                Carrera
+            </label>
+        </div>
+        <label for="textarea-descripcion">
+            Descripción de producto
+        </label>
+        <textarea id="textarea-descripcion" placeholder="Describa su producto"></textarea>
+        <label>
+            <input type="submit" value="Cargar">
+        </label>
+    </form>
+    <!-- ejemplo del uso de ancla con id -->
+    <!-- <a href="#inicio">
+        Inicio
+    </a>
+    <a href="#contacto">
+        Contacto
+    </a>
+    <p id="inicio">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, at, blanditiis earum placeat magni enim nisi
+        illo, numquam ad sint cum nemo eos rerum perferendis dicta consectetur eveniet natus. Recusandae.
+        Lorem ipsum dolor
+    </p>
+    <p id="contacto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quidem dignissimos adipisci quibusdam praesentium
+        porro et, blanditiis similique distinctio sed quia facilis, repellat quod reiciendis tenetur eaque nesciunt
+        officia natus deserunt quo veritatis? Autem reiciendis, iure suscipit distinctio rem officia.
+    </p> -->
+    <!-- ejemplo de checkbox -->
+    <!-- <label>
+        <input type="checkbox"> TÉRMINOS Y CONDICIONES
+    </label> -->
+    <!-- ejemplo de emait y submit -->
+    <!-- <form>
+        <label>
+            <input type="email" placeholder="Ingrese su email" id="input-email">
+        </label>
+        <label>
+            <input type="submit">
+        </label>
+    </form> -->
+</body>
+</html>

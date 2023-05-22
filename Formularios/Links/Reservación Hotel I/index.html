@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservación Hotel I</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container1">
+        <div class="container-form">
+            <form>
+                <fieldset >
+                    <label for="input-destino">
+                        Tu destino
+                    </label>
+                    <input type="text" placeholder="ingrese un destino o nombre de hotel" id="input-destino">
+                </fieldset>
+                <fieldset class="llegada-salida">
+                    <div class="hospedaje">
+                        <label for="input-llegada">
+                            llegada
+                        </label>
+                        <input type="date" placeholder="dd/mm/aa" id="llegada">
+                    </div>
+                    <div class="hospedaje">
+                        <label for="input-salida">
+                            salida
+                        </label>
+                        <input type="date" placeholder="dd/mm/aa" id="input-salida">
+                    </div>
+                </fieldset>
+                <fieldset class="select">
+                    <div class="espacio">
+                        <label for="select-Habitaciones">
+                            Rooms
+                        </label>
+                        <select id="select-Habitaciones">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="espacio">
+                        <label for="select-Adultos">
+                            Adults
+                        </label>
+                        <select id="select-Adultos">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="espacio">
+                        <label for="select-Niños">
+                            Children
+                        </label>
+                        <select id="select-Niños">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        <input type="submit" value="Consultar disponibilidad" class="button">
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container-presentacion">
+            <h1>
+                MAKE YOUR RESERVATION
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi. Perspiciatis.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
