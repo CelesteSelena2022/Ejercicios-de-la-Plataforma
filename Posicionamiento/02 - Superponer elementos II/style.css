@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+}
+html,
+body{
+    min-height: 100vh;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.container-principal{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-ejemplos{
+    width: 100px;
+    height: 100px;
+    background-color: #d3d3d3;
+    margin: 5px;
+    position: relative
+}
+
+.container-rojo{
+    width: 60px;
+    height: 60px;
+    background-color: #eb3223;
+    position: absolute;
+}
+
+.container-verde{
+    width: 30px;
+    height: 30px;
+    background-color: #377d22;
+    position: absolute;
+}
+
+/* ----------ejemplo 1------------- */
+
+.ejemplo1-container1{
+    left: 0;
+    top: 0;
+}
+
+.ejemplo1-container2{
+    right: 0;
+    bottom: 0;
+}
+
+/* ----------ejemplo 2------------- */
+
+.ejemplo2-container1{
+    bottom: 0;
+}
+
+.ejemplo2-container2{
+    top: 0;
+    right: 0;
+}
+
+/* ----------ejemplo 3------------- */
+
+.ejemplo3-container1{
+    bottom: 0;
+    right: 0;
+}
+
+.ejemplo3-container2{
+    top: 0;
+    right: 0;
+}
+
+/* ----------ejemplo 4------------- */
+
+.ejemplo4-container1 {
+    bottom: 0;
+}
+
+.ejemplo4-container2{
+    bottom: 0;
+    right: 0;
+}
+
+/* ----------ejemplo 5------------- */
+
+.ejemplo5-container1{
+    right: 0;
+}
+
+.ejemplo5-container2{
+    bottom: 0;
+}
+
+/* ----------ejemplo 6------------- */
+
+.ejemplo6-container1{
+    bottom: 0;
+    right: 0;
+}
+
+.ejemplo6-container2{
+    right: 0;
+}
+
+/* ----------ejemplo 7------------- */
+
+.ejemplo7-container1 {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.ejemplo7-container2{
+    bottom: 0;
+}
+
+/* ----------ejemplo 8------------- */
+
+.ejemplo8-container1{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.ejemplo8-container2{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* ----------ejemplo 9------------- */
+
+.ejemplo9-container1{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.ejemplo9-container2{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
